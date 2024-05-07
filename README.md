@@ -1,29 +1,31 @@
 # VBScript Custom Shell
 
-Uma shell alternativa criada em VBScript que permite realizar operações básicas do sistema de arquivos e executar comandos operacionais do Windows caso você não esteja conseguindo executar o cmd ou o powershell por motivos de bloqueios (:
+An alternative shell created in VBScript that allows you to perform basic file system operations and execute Windows operating commands if you are unable to run cmd or powershell due to blocking (:
 
-**🌟 Destaques**
+**🌟 Highlights**
 
-**Navegação no sistema de arquivos:** Utilize **cd [caminho]** para mudar de diretório ou **cd ..** para ir um nível acima.
+**Navigation in the file system:** Use **cd [path]** to change directory or **cd ..** to go one level up.
 
-**Listagem de arquivos:** Use o comando **dir** para listar arquivos e diretórios do diretório atual.
+**File listing:** Use the **dir** command to list files and directories in the current directory.
 
-**Gerenciamento de diretórios:** Crie diretórios com **mkdir [nome_diretório].**
+**Directory management:** Create directories with **mkdir [directory_name].**
 
-**Manipulação de arquivos:** Copie arquivos com **copy [arquivo_origem] [destino].**
+**File manipulation:** Copy files with **copy [source_file] [destination].**
 
-**Comandos operacionais:** Execute comandos comuns como **whoami, ipconfig, curl** e muitos outros.
+**Operational commands:** Run common commands such as **whoami, ipconfig, curl** and many others.
 
-**⚠️ Limitações**
+**⚠️ Limitations**
 
-**Embora muitos comandos operacionais possam ser executados, essa shell é mais limitada do que o CMD padrão do Windows. A execução de scripts VBS pode estar desativada em ambientes com políticas de segurança rigorosas. A sintaxe para determinados comandos pode diferir ou certos recursos podem não estar disponíveis.**
+**Although many operational commands can be executed, this shell is more limited than the standard Windows CMD. 
+Execution of VBS scripts may be disabled in environments with strict security policies. 
+The syntax for certain commands may differ or certain features may not be available.**
 
-**🚀 Uso**
+**🚀 Usage**
 
-1. Salve o script como **vbshell.vbs** ou com outro nome de sua preferência com a extensão **.vbs.**
+1. Save the script as **vbshell.vbs** or another name of your choice with the extension **.vbs.**
 
-2. Execute o arquivo .vbs clicando duas vezes ou via linha de comando.
+2. Run the .vbs file by double-clicking or via the command line.
 
-3. Uma janela de input será exibida mostrando o diretório atual. Insira o comando desejado e pressione OK.
+3. An input window will be displayed showing the current directory. Enter the desired command and press OK.
 
-4. Continue inserindo comandos conforme necessário. Feche a janela de input para sair.
+4. Continue entering commands as necessary. Close the input window to exit.

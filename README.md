@@ -16,9 +16,11 @@ An alternative shell created in VBScript that allows you to perform basic file s
 
 **⚠️ Limitations**
 
-**Although many operational commands can be executed, this shell is more limited than the standard Windows CMD. 
-Execution of VBS scripts may be disabled in environments with strict security policies. 
-The syntax for certain commands may differ or certain features may not be available.**
+**Although many operational commands can be executed, this shell is more limited than the standard Windows CMD.**
+
+**Execution of VBS scripts may be disabled in environments with strict security policies.**
+
+**The syntax for certain commands may differ or certain features may not be available.**
 
 **🚀 Usage**
 
